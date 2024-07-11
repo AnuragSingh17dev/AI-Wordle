@@ -69,7 +69,7 @@ play(Word, Attempts) :-
         play(Word, NewAttempts)
     ).
 play(_, 0) :-
-    format("Sorry, you've run out of attempts. The word was not guessed.~n").
+    format("Sorry, you have run out of attempts because the word was not guessed.~n").
 
 % Check the guess
 check_guess(Guess, Word, Feedback) :-
